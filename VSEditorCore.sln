@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextUICommon", "src\Editor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextUICocoaUtil", "src\Editor\Text\Util\TextUICocoaUtil\TextUICocoaUtil.csproj", "{30EBE0A1-DE87-4250-B979-E60F994C846C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextUICocoa", "src\Editor\Text\Def\TextUICocoa\TextUICocoa.csproj", "{600ABC2F-3A1D-4167-A31F-586F3A319989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		macOS|Any CPU = macOS|Any CPU
@@ -331,6 +333,8 @@ Global
 		{F163FDDD-6716-4B60-9221-5993256C7476}.Gnome|Any CPU.Build.0 = Gnome|Any CPU
 		{30EBE0A1-DE87-4250-B979-E60F994C846C}.macOS|Any CPU.ActiveCfg = Debug|Any CPU
 		{30EBE0A1-DE87-4250-B979-E60F994C846C}.macOS|Any CPU.Build.0 = Debug|Any CPU
+		{600ABC2F-3A1D-4167-A31F-586F3A319989}.macOS|Any CPU.ActiveCfg = Debug|Any CPU
+		{600ABC2F-3A1D-4167-A31F-586F3A319989}.macOS|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92E649D2-BE16-4688-ACA5-61ACC5556CFF} = {F2475C0D-E5DD-470D-8521-6796F503C021}
