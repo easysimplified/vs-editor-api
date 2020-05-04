@@ -19,9 +19,5 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Composition" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DifferenceViewer" />
-    <Folder Include="DragDrop" />
-  </ItemGroup>
   <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.targets" />
 </Project>
