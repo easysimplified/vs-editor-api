@@ -15,7 +15,4 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Composition" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Extras\Find" />
-  </ItemGroup>
 </Project>
