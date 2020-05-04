@@ -160,6 +160,10 @@
 
   <!-- Gtk Projects -->
   <ItemGroup Condition="$(HaveGtk)">
+      <ProjectReference Include="$(MSBuildThisFileDirectory)Editor\Text\Util\TextUIGtkUtil\TextUIGtkUtil.csproj">
+        <Private>$(ReferencesVSEditorCopyToOutput)</Private>
+        <Consolidate>true</Consolidate>
+      </ProjectReference>
     <ProjectReference Include="$(MSBuildThisFileDirectory)Editor\Text\Impl\BraceCompletion\BraceCompletionImpl.csproj">
       <Private>$(ReferencesVSEditorCopyToOutput)</Private>
       <Consolidate>true</Consolidate>
