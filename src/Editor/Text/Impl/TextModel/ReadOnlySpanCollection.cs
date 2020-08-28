@@ -27,7 +27,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// the first one the ReadOnlySpanCollection was created with is undefined.
     /// </para>
     /// </remarks>
-    internal class ReadOnlySpanCollection : ReadOnlyCollection<ReadOnlySpan>
+//  internal class ReadOnlySpanCollection : ReadOnlyCollection<ReadOnlySpan>
+    public class ReadOnlySpanCollection : ReadOnlyCollection<ReadOnlySpan>
     {
         readonly List<IReadOnlyRegion> regionsWithActions;
 

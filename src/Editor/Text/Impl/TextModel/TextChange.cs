@@ -19,7 +19,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// Deletion:  oldText != "" and newText == ""
     /// Replace:   oldText != "" and newText != ""
     /// </summary>
-    internal partial class TextChange : ITextChange3
+//  internal partial class TextChange : ITextChange3
+    public partial class TextChange : ITextChange3
     {
         #region Private Members
 

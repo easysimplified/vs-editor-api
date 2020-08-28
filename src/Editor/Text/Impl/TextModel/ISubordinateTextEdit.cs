@@ -12,7 +12,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// These methods augment ITextEdit to support editing of source buffers of projection and elision buffers.
     /// </summary>
-    internal interface ISubordinateTextEdit
+//  internal interface ISubordinateTextEdit
+    public interface ISubordinateTextEdit
     {
         /// <summary>
         /// Compute effects of an edit on source buffers, if any, and add the source edits to the BufferGroup.

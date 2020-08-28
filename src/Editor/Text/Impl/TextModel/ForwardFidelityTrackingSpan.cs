@@ -13,7 +13,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// for the same version when moving forward (i.e., no special support for noninvertible transitions).
     /// No special support for Undo/Redo.
     /// </summary>
-    internal class ForwardFidelityTrackingSpan : TrackingSpan
+//  internal class ForwardFidelityTrackingSpan : TrackingSpan
+    public class ForwardFidelityTrackingSpan : TrackingSpan
     {
         #region State and Construction
         private class VersionSpan

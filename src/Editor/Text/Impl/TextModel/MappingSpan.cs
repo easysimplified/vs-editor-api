@@ -13,7 +13,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     using Microsoft.VisualStudio.Text.Projection;
     using Microsoft.VisualStudio.Text.Utilities;
 
-    internal partial class MappingSpan : IMappingSpan
+//  internal partial class MappingSpan : IMappingSpan
+    public partial class MappingSpan : IMappingSpan
     {
         private SnapshotSpan anchorSpan;
         private SpanTrackingMode trackingMode;

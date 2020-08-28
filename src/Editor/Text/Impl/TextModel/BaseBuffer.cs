@@ -17,13 +17,15 @@ namespace Microsoft.VisualStudio.Text.Implementation
     using Microsoft.VisualStudio.Threading;
     using System.Threading.Tasks;
 
-    internal abstract partial class BaseBuffer : ITextBuffer2
+//  internal abstract partial class BaseBuffer : ITextBuffer2
+    public abstract partial class BaseBuffer : ITextBuffer2
     {
         #region ITextEventRaiser Interface
         /// <summary>
         /// Implemented internally to support a heterogeneous event queue.
         /// </summary>
-        internal interface ITextEventRaiser
+    //  internal interface ITextEventRaiser
+        public interface ITextEventRaiser
         {
             void RaiseEvent(BaseBuffer baseBuffer, bool immediate);
             bool HasPostEvent { get; }

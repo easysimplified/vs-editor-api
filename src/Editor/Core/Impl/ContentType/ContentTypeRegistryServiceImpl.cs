@@ -33,7 +33,8 @@ namespace Microsoft.VisualStudio.Utilities.Implementation
     [Export(typeof(IFileToContentTypeService))]
     [Export(typeof(IContentTypeRegistryService))]
     [Export(typeof(IContentTypeRegistryService2))]
-    internal sealed partial class ContentTypeRegistryImpl : IContentTypeRegistryService2, IFileExtensionRegistryService, IFileExtensionRegistryService2, IFileToContentTypeService
+//  internal sealed partial class ContentTypeRegistryImpl : IContentTypeRegistryService2, IFileExtensionRegistryService, IFileExtensionRegistryService2, IFileToContentTypeService
+    public sealed partial class ContentTypeRegistryImpl : IContentTypeRegistryService2, IFileExtensionRegistryService, IFileExtensionRegistryService2, IFileToContentTypeService
     {
         [ImportMany]
         internal List<Lazy<ContentTypeDefinition, IContentTypeDefinitionMetadata>> ContentTypeDefinitions { get; set; }

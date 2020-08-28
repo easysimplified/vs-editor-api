@@ -16,7 +16,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     using Microsoft.VisualStudio.Utilities;
     using System;
 
-    internal class BufferGroup
+//  internal class BufferGroup
+    public class BufferGroup
     {
         private static bool tracing = false;
         private static bool detailedTracing = false;

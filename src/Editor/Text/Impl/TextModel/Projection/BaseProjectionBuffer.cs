@@ -19,7 +19,8 @@ namespace Microsoft.VisualStudio.Text.Projection.Implementation
     using System.Collections.ObjectModel;
     using System.Globalization;
 
-    internal abstract class BaseProjectionBuffer : BaseBuffer, IProjectionBufferBase
+//  internal abstract class BaseProjectionBuffer : BaseBuffer, IProjectionBufferBase
+    public abstract class BaseProjectionBuffer : BaseBuffer, IProjectionBufferBase
     {
         #region State and construction
         protected internal readonly IProjectionEditResolver resolver;

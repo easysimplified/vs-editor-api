@@ -13,7 +13,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// An immutable variation on the StringBuilder class.
     /// </summary>
-    internal class TextImageVersion : ITextImageVersion
+//  internal class TextImageVersion : ITextImageVersion
+    public class TextImageVersion : ITextImageVersion
     {
         public TextImageVersion(int length)
             : this(versionNumber: 0, reiteratedVersionNumber: 0, length: length, identifier: new object())

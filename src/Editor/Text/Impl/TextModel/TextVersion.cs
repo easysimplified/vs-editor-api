@@ -13,7 +13,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// An internal implementation of ITextVersion
     /// </summary>
-    internal partial class TextVersion : ITextVersion, ITextVersion2
+//  internal partial class TextVersion : ITextVersion, ITextVersion2
+    public partial class TextVersion : ITextVersion, ITextVersion2
     {
         private readonly TextImageVersion _textImageVersion;
 

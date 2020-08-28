@@ -12,7 +12,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// Base class for a tracking span in a particular <see cref="ITextBuffer"/>.
     /// </summary>
-    internal abstract partial class TrackingSpan : ITrackingSpan
+//  internal abstract partial class TrackingSpan : ITrackingSpan
+    public abstract partial class TrackingSpan : ITrackingSpan
     {
         #region State and Construction
         protected readonly SpanTrackingMode trackingMode;

@@ -13,7 +13,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// Describe the context of some text change with respect to compound line breaks.
     /// </summary>
     [Flags]
-    internal enum LineBreakBoundaryConditions : byte
+//  internal enum LineBreakBoundaryConditions : byte
+    public enum LineBreakBoundaryConditions : byte
     {
         /// <summary>
         /// The change is neither preceded by a return character nor followed by a newline character.

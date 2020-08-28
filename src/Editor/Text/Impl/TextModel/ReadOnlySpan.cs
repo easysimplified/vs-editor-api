@@ -14,7 +14,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// A span which tracks whether or not its edges can be inserted at.
     /// </summary>
-    internal class ReadOnlySpan : ForwardFidelityTrackingSpan
+//  internal class ReadOnlySpan : ForwardFidelityTrackingSpan
+    public class ReadOnlySpan : ForwardFidelityTrackingSpan
     {
         #region Private members
         private readonly EdgeInsertionMode _startEdgeInsertionMode;

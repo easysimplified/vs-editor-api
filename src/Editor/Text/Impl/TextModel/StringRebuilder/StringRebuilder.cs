@@ -16,7 +16,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// An immutable variation on the StringBuilder class.
     /// </summary>
-    internal abstract class StringRebuilder
+//  internal abstract class StringRebuilder
+    public abstract class StringRebuilder
     {
         public readonly static StringRebuilder Empty = new StringRebuilderForString();
 

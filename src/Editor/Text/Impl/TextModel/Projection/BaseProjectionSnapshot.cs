@@ -15,7 +15,8 @@ namespace Microsoft.VisualStudio.Text.Projection.Implementation
 
     using Microsoft.VisualStudio.Text.Implementation;
 
-    internal abstract class BaseProjectionSnapshot : BaseSnapshot, IProjectionSnapshot2
+//  internal abstract class BaseProjectionSnapshot : BaseSnapshot, IProjectionSnapshot2
+    public abstract class BaseProjectionSnapshot : BaseSnapshot, IProjectionSnapshot2
     {
         #region State and Construction
         protected int totalLength = 0;

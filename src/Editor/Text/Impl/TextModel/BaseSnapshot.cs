@@ -17,7 +17,8 @@ namespace Microsoft.VisualStudio.Text.Implementation
     /// <summary>
     /// Base class for all varieties of Text Snapshots.
     /// </summary>
-    internal abstract class BaseSnapshot : ITextSnapshot, ITextSnapshot2
+//  internal abstract class BaseSnapshot : ITextSnapshot, ITextSnapshot2
+    public abstract class BaseSnapshot : ITextSnapshot, ITextSnapshot2
     {
         #region State and Construction
         protected readonly ITextVersion2 version;

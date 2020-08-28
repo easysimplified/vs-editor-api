@@ -4,7 +4,8 @@
 //
 namespace Microsoft.VisualStudio.Text.Operations
 {
-    internal abstract class TextUndoPrimitive : ITextUndoPrimitive
+    //internal abstract class TextUndoPrimitive : ITextUndoPrimitive
+    public abstract class TextUndoPrimitive : ITextUndoPrimitive
     {
         private ITextUndoTransaction parent;
 
