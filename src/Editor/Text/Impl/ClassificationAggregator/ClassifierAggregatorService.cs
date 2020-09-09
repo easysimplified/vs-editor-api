@@ -26,17 +26,20 @@ namespace Microsoft.VisualStudio.Text.Classification.Implementation
         [Import]
         internal IViewTagAggregatorFactoryService _viewTagAggregatorFactory { get; set; }
 
-        [Import]
-        internal IClassificationTypeRegistryService _classificationTypeRegistry { get; set; }
+// oe NOT IMPLEMENTED...
+//oe	[Import]
+//oe	internal IClassificationTypeRegistryService _classificationTypeRegistry { get; set; }
 
         public IClassifier GetClassifier(ITextBuffer textBuffer)
         {
-            return new ClassifierAggregator(textBuffer, _bufferTagAggregatorFactory, _classificationTypeRegistry);
+	//oe	return new ClassifierAggregator(textBuffer, _bufferTagAggregatorFactory, _classificationTypeRegistry);
+		throw new NotImplementedException();
         }
 
         public IClassifier GetClassifier(ITextView textView)
         {
-            return new ClassifierAggregator(textView, _viewTagAggregatorFactory, _classificationTypeRegistry);
+	//oe	return new ClassifierAggregator(textView, _viewTagAggregatorFactory, _classificationTypeRegistry);
+		throw new NotImplementedException();
         }
     }
 }

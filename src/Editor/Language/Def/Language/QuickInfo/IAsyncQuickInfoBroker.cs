@@ -52,6 +52,7 @@
             QuickInfoSessionOptions options = QuickInfoSessionOptions.None,
             CancellationToken cancellationToken = default);
 
+/* oe NOT IMPLEMENTED...
         /// <summary>
         /// Gets Quick Info items for the <see cref="ITextView"/> at the <paramref name="triggerPoint"/>.
         /// </summary>
@@ -75,7 +76,7 @@
         Task<QuickInfoItemsCollection> GetQuickInfoItemsAsync(
             ITextView textView,
             ITrackingPoint triggerPoint,
-            CancellationToken cancellationToken);
+            CancellationToken cancellationToken);	*/
 
         /// <summary>
         /// Gets the current <see cref="IAsyncQuickInfoSession"/> for the <see cref="ITextView"/>.
