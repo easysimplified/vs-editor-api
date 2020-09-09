@@ -41,5 +41,6 @@ namespace Microsoft.VisualStudio.Text.Classification.Implementation
 	//oe	return new ClassifierAggregator(textView, _viewTagAggregatorFactory, _classificationTypeRegistry);
 		throw new NotImplementedException();
         }
+
     }
 }
