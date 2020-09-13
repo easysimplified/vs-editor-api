@@ -147,10 +147,9 @@ namespace Microsoft.VisualStudio.Text.Implementation
                             // Valid UTF8 but no extended characters, so it's valid ASCII.
                             // We don't use ASCII here because of the following scenario:
                             // The user with a non-ENU system encoding opens a code file with ASCII-only contents
-		/* RuntimeInformation not available in net461 (from net471).
                             if (RuntimeInformation.IsOSPlatform (OSPlatform.Windows))
                                 chosenEncoding = DefaultEncoding;
-                            else	*/
+                            else
                                 // To get to this line, it means file doesn't have BOM
                                 // On Windows DefaultEncoding is "ASCII" which doesn't have BOM
                                 // On non-Windows systems DefaultEncoding is UTF8 which emits BOM on save

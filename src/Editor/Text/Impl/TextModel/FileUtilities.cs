@@ -183,11 +183,9 @@ namespace Microsoft.VisualStudio.Text.Implementation
                     var safeHandle = originalFileStream.SafeFileHandle;
                     if (!(safeHandle.IsClosed || safeHandle.IsInvalid))
                     {
-		/* unused, see below...
                         uint numberOfHardLinks = 1;
-                        bool statWasSuccessful = false;	*/
+                        bool statWasSuccessful = false;
 
-		/* RuntimeInformation not available in net461 (from net471).
                         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                         {
                             if (NativeMethods.GetFileInformationByHandle(safeHandle, out var fi))
@@ -204,7 +202,7 @@ namespace Microsoft.VisualStudio.Text.Implementation
                                 numberOfHardLinks = statbuf.st_nlink;
                             }
                         }
-                        else	*/
+                        else
                         {
                             throw new PlatformNotSupportedException("Implement fstat support for Linux");
                         }
