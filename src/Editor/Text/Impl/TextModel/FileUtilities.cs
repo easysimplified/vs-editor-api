@@ -207,7 +207,6 @@ namespace Microsoft.VisualStudio.Text.Implementation
                             throw new PlatformNotSupportedException("Implement fstat support for Linux");
                         }
 
-		/* these are unreachable now...
                         if (!statWasSuccessful)
                             throw new InvalidOperationException("Unable to determine if file has any hard links");
 
@@ -217,7 +216,7 @@ namespace Microsoft.VisualStudio.Text.Implementation
                             // clear out the originalFileStream as a clue.
                             originalFileStream.Dispose();
                             originalFileStream = null;
-                        }	*/
+                        }
                     }
                 }
                 catch
