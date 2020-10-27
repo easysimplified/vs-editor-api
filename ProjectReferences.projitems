@@ -157,10 +157,6 @@
       <SolutionFolder>Shared</SolutionFolder>
       <Private>$(ReferencesVSEditorCopyToOutput)</Private>
     </ProjectReference>
-    <ProjectReference Include="$(MSBuildThisFileDirectory)src\Editor\Text\Def\Extras\Extras.csproj">
-      <SolutionFolder>Shared</SolutionFolder>
-      <Private>$(ReferencesVSEditorCopyToOutput)</Private>
-    </ProjectReference>
   </ItemGroup>
 
   <!-- Cocoa Interfaces -->
