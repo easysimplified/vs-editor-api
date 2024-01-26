@@ -15,7 +15,7 @@
   <ItemGroup>
     <PackageReference Include="StreamJsonRpc" />
     <PackageReference Include="System.Collections.Immutable" />
-    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Def\CoreUtility.csproj" />
