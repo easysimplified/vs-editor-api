@@ -13,7 +13,7 @@
 
   <!-- Used only by src/Editor/Language/Def/Language/CodeLens/Remoting -->
   <ItemGroup>
-    <PackageReference Update="Newtonsoft.Json" Version="9.0.1"/>
+    <PackageReference Update="Newtonsoft.Json" Version="13.0.3"/>
     <PackageReference Update="StreamJsonRpc" Version="1.3.23"/>
   </ItemGroup>
 

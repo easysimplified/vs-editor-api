@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutomationTypes", "src\Ed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutomationClient", "src\Editor\FPF\UIAutomationClient\UIAutomationClient.csproj", "{F26AC124-3EB5-5DA2-AE13-51904AFBFB70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FPF", "FPF", "{01986EB1-3128-5838-B09A-7754A44C22CE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextDataUtil", "src\Editor\Text\Util\TextDataUtil\TextDataUtil.csproj", "{2A67004F-832D-5D47-AA7D-26D1548EBB88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextUIUtil", "src\Editor\Text\Util\TextUIUtil\TextUIUtil.csproj", "{B2040CA1-C6E3-5D44-89A2-6C1BE936184D}"
